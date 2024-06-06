@@ -30,8 +30,6 @@ for image in images:
     img = Image.open(image)
     img_width, img_height = img.size
 
-    # TODO: reduce the size and quality of the images...
-
     # setting page orientation variable
     orientation = "P" if img_height >> img_width else "L"
 
@@ -47,7 +45,7 @@ for image in images:
 
     # Put the image in the current page 
     pdf.image(
-        name = image, 
+        name = image,  
         x = 0, 
         y = 0, 
         w = img_width, 
