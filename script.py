@@ -12,7 +12,7 @@ files = os.listdir("./")
 
 # Check if files are images (jpg / png), if they are, add them to images list, if not, quit...
 for file in files:
-    if file.endswith(".jpg") or file.endswith(".png"):
+    if file.endswith(".jpeg") or file.endswith(".jpg") or file.endswith(".png"):
         images.append(file) 
         print(f"Scanned {len(images)} files from {len(files)}")
     elif len(images) == 0 and file == files[len(files)-1]: 
