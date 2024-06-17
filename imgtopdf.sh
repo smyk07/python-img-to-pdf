@@ -1,5 +1,11 @@
 #!/bin/bash
 
+echo "Installing Python3 Package: fpdf2"
+
+pip install fpdf2
+
+echo --------------------
+
 echo "Downloading script.py"
 
 curl -o script.py https://raw.githubusercontent.com/smyk07/python-img-to-pdf/master/script.py
