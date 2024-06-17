@@ -5,6 +5,6 @@ Converts `.jpg` and `.png` images in a directory (sequenced) into a single pdf f
 ## Usage
 
 ```
-bash -c "$(curl -fsSL )"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/smyk07/python-img-to-pdf/master/imgtopdf.sh)"
 ```
 
